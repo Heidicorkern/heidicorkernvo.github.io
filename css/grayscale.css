@@ -96,16 +96,30 @@ a:focus, a:hover {
   position: absolute;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
 #aboutpic {
-  width: 28%;
-  height: 50%;
-  margin-right: 2%;
-  float:left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+  height: auto;
+  margin-left: 2%;
 }
 
 #abouttext {
-  width: 70%;
-  float: right;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -177,7 +191,7 @@ a:focus, a:hover {
   }
 }
 .aboutmast {
-  display: table;
+  display: flex;
   width: 100%;
   height: auto;
   padding: 70px 0 150px 0;
