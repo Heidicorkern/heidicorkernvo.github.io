@@ -110,7 +110,7 @@ a:focus, a:hover {
   align-content: center;
   width: 100%;
   height: auto;
-  margin-left: 2%;
+  margin: 10px;
 }
 
 #abouttext {
